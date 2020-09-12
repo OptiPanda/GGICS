@@ -1,0 +1,19 @@
+{
+  "name": "ggics",
+  "version": "0.0.1",
+  "description": "GeoGuessr International Championship Series",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OptiPanda/GGICS.git"
+  },
+  "author": "OptiPanda & Kaijiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OptiPanda/GGICS/issues"
+  },
+  "homepage": "https://github.com/OptiPanda/GGICS#readme"
+}
