@@ -1,0 +1,10 @@
+{
+  "watch": ["./"],
+  "ignore": [
+    "dist/**",
+    "node_modules",
+    ".idea"
+  ],
+  "ext": "ts,html",
+  "exec": "npm run start"
+}
