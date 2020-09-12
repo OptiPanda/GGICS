@@ -2,7 +2,7 @@
   "name": "ggics",
   "version": "0.0.1",
   "description": "GeoGuessr International Championship Series",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/OptiPanda/GGICS/issues"
   },
-  "homepage": "https://github.com/OptiPanda/GGICS#readme"
+  "homepage": "https://github.com/OptiPanda/GGICS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
