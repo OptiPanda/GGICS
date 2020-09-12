@@ -1,5 +1,6 @@
 import express from "express";
 import mustacheExpress from "mustache-express";
+import router from "./routes/index";
 
 const app = express();
 app.set('port', 3000);
@@ -10,9 +11,7 @@ app.set('views', __dirname + '/views');
 
 // ROUTINGE
 
-app.get('/', function (req, res) {
-    res.render('index');
-});
+app.use('/', router);
 
 // EUKAI LE START
 
