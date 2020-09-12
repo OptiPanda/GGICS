@@ -1,6 +1,6 @@
 import express from "express";
 import mustacheExpress from "mustache-express";
-import router from "./routes/index";
+import router from "./src/routes/index";
 
 const app = express();
 app.set('port', 3000);

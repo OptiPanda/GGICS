@@ -7,4 +7,8 @@ export default class GameController {
     public joinGame = (req, res) => {
         res.render('game/join');
     }
+
+    public game = (req, res) => {
+        res.render('game/game');
+    }
 }
