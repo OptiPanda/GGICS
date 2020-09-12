@@ -1,7 +1,7 @@
-var express = require('express');
-var mustacheExpress = require('mustache-express');
+import express from "express";
+import mustacheExpress from "mustache-express";
 
-var app = express();
+const app = express();
 app.set('port', 3000);
 app.engine('html', mustacheExpress());
 
